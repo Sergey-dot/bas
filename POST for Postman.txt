@@ -1,0 +1,31 @@
+===============
+URL:   http://localhost:3000/api/register    [POST]
+body: {
+"name":"User1", 
+"email":"user1@gmail.com", 
+"password":"test123",
+ "bookcase":[]
+}
+=======================
+
+URL:  http://localhost:3000/api/login   [POST]
+body: {
+"email":"user1@gmail.com",
+ "password":"test123"
+}
+=======================
+
+URL:  http://localhost:3000/api/books/add   [POST]
+body: {
+"title":"Performance JavaScript", 
+"author":"C. Zakas", 
+"isFinished": false, 
+"note":"A good Book.", 
+"score":"0"
+}
+=======================
+
+
+
+
+
